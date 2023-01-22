@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-*">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!---JS for toggle-->
+        <script>
+            let slideIndex = 0;
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length){
+                    slideIndex = 1
+                }
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+</head>
+
+<body onload="showSlides()">
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"> 
+                <img src="images/logo-large.png" width="125px">
+            </div>
+            <h1 style="color:white; margin-left: 20px;">La Consolacion College Valenzuela</h1>
+            
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+        </div>
+    <div class="row">
+        <h1 style="font-size: 200%;color:white; margin-left: auto; margin-right: 0;">Courses Offered</h1>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <p style="font-size:250%; margin-left: 20px;"><b>Pre-School</b></p>
+            <br>
+            <p class="indentParagraph">
+                <b>Kinder 1 and Kinder 2</b><br>
+                LCCV aims to provide toddlers with an environment that nurtures and enhances their learning
+                and makes it fun, engaging and exciting. We aim to start a Godly education at an early age.<br>
+                <br>
+                <p style="margin-left:70px;">Requirements
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">Must be aged 5-6 years</li>
+                        <li class="reqListItems">2 x 2 Colored Photos White Background</li>
+                        <li class="reqListItems">Baptismal Certificate</li>
+                    </ul>
+                </p>
+            </p>
+        </div>
+        <div class="col-2">
+            <img src="admissions/lccv-preSchool.jpg" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr style="border-top: 2px solid #ffd700;"></hr> 
+
+    <div class="row">
+        <div class="col-2">
+            <img src="admissions/lccv-grade-school.jpg" alt="">
+        </div>
+        <div class="col-2">
+            <p style="font-size:250%; margin-left: 20px;"><b>Grade School</b></p>
+            <br>
+            <p class="indentParagraph">
+                <b>Grade 1 to Grade 6</b><br>
+                LCCV aims to nurture, enhance, and satisfy the innate cursiosity of children. The institution
+                also aims to ready the students for higher learning that awaits them in the future.<br>
+                <br>
+                <p style="margin-left:70px;">Requirements
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">Must be aged 6 years or above</li>
+                        <li class="reqListItems">2 x 2 Colored Photos White Background</li>
+                        <li class="reqListItems">Baptismal Certificate</li>
+                        <li class="reqListItems">Birth Certificate</li>
+                    </ul>
+                </p>
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr style="border-top: 2px solid #ffd700;"></hr> 
+
+    <div class="row">
+        <div class="col-2">
+            <p style="font-size:250%; margin-left: 20px;"><b>Junior Highschool</b></p>
+            <br>
+            <p class="indentParagraph">
+                <b>Grade 7 to Grade 10</b><br>
+                Make sure your kids are equipped to handle higher learning in a fun and exciting way
+                <br>
+                <br>
+                <p style="margin-left:70px;">Requirements
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">Form 138(Report Card</li>
+                        <li class="reqListItems">Form 137(Entire Record)</li>
+                        <li class="reqListItems">2 x 2 Colored Photos White Background</li>
+                        <li class="reqListItems">Certificate of Good Moral</li>
+                    </ul>
+                </p>
+            </p>
+            <br>
+            <br>
+        </div>
+        <div class="col-2">
+            <img src="admissions/lccv-jhs.jpg" alt="">
+        </div>
+        <br>
+        <br>
+    </div>
+    <hr style="border-top: 2px solid #ffd700;"></hr> 
+
+    <div class="row">
+        <div class="col-2">
+            <img src="admissions/lccv-shs.jpg" alt="">
+        </div>
+        <div class="col-2">
+            <p style="font-size:250%; margin-left: 20px;"><b>Senior Highschool</b></p>
+            <br>
+            <p class="indentParagraph">
+                <b>Grade 11 and Grade 12</b><br>
+                Choose from our offered strands you can take and make sure you  are ready for
+                college and beyond<br><br>
+                <ul style="color: white; margin-left:100px;">
+                    <li class="reqListItems">General Academic Strand (GAS)</li>
+                    <li class="reqListItems">Humanities and Social Sciences (HUMSS)</li>
+                    <li class="reqListItems">Information and Communication Technology (ICT)</li>
+                    <li class="reqListItems">Accountancy, Business and Management (ABM)</li>
+                    <li class="reqListItems">Home Economics (HE)</li>
+                </ul>
+                <br>
+                <br>
+                <p style="margin-left:70px;">Requirements
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">Form 138(Report Card</li>
+                        <li class="reqListItems">Form 137(Entire Record)</li>
+                        <li class="reqListItems">2 x 2 Colored Photos White Background</li>
+                        <li class="reqListItems">Certificate of Good Moral</li>
+                    </ul>
+                </p>
+            </p>
+            <br>
+            <br>
+        </div>
+    </div>
+    <hr style="border-top: 2px solid #ffd700;"></hr> 
+
+    <div class="row">
+        <div class="col-2">
+            <p style="font-size:250%; margin-left: 20px;">College</p>
+            <br>
+            <p class="indentParagraph">
+                Choose from one of the bachelors degree programs to prepare yourself for a bigger world and be a
+                part of the workforce<br>
+                <br>
+                <ul style="color: white; margin-left:100px;">
+                    <li class="reqListItems">Bachelor of Science in Information Technology</li>
+                    <li class="reqListItems">Bachelor of Science in Hospitality Mangement</li>
+                    <li class="reqListItems">Bachelor of Science in Business Administration<br>
+                        <sub>(Major in Business Marketing ; Major in Financial Management)</sub>
+                    </li>
+                </ul>
+                <br>
+                <p style="margin-left:70px;">Requirements
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">Form 137 (Complete Records) - For Freshmen</li>
+                        <li class="reqListItems">Transcript of Records</li>
+                        <li class="reqListItems">Cerficate of Good Moral</li>
+                    </ul>
+                </p>
+            </p>
+        </div>
+        <div class="col-2">
+            <img src="admissions/lccv-college.jpg" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div><!--container-->
+</div><!---header-->
+
+<!------footers------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <!--content-->
+                <a href="location.html"><img src="images/logo-map.png" alt="" width="25%"></a>
+                <br>
+                Location
+            </div>
+            <div class="footer-col-2">
+                <a href="https://www.facebook.com/lccvalenzuelaofficial"><img src="images/logo-fb.png" alt=""width="25%"></a>
+                <br>
+                lccvalenzuelaofficial
+            </div>
+            <div class="footer-col-3">
+                <img src="images/logo-gmail.png" alt=""width="25%">
+                <br>
+                lccv.princoffice@gmail.com
+            </div>
+            <div class="footer-col-4">
+                <img src="images/logo-call.png" alt=""width="25%">
+                <br>
+                8294 6089
+                <br>
+                8291 1655
+            </div>
+        </div>
+    </div>
+    <hr style="border-top: 2px solid #ffd700;"></hr>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+</script>
+</body>
+</html>

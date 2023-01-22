@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-*">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCCV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!---JS for toggle-->
+        <script>
+            let slideIndex = 0;
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length){
+                    slideIndex = 1
+                }
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+</head>
+
+<body onload="showSlides()">
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"> 
+                <img src="images/logo-large.png" width="125px">
+            </div>
+            <h1 style="color:white; margin-left: 20px;">La Consolacion College Valenzuela</h1>
+            
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+        </div><!--navbar-->
+    <div class="row">
+        <div class="col-2">
+            <p style="font-size:200%">
+                <i>
+                    LCCV strives to mold young minds who will help build a community 
+                    spirit of friendship, compassion, responsibility, fairness, dynamism and love.
+                </i> 
+            </p>
+        </div>
+        <div class="col-2">
+            <!--Image Carousel-->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="images/carousel/image-1.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/carousel/image-2.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/carousel/image-3.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/carousel/image-4.jpg">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/carousel/image-5.jpg">
+                </div>
+                </div>
+                <br>
+                <!--- The dots/circles --->
+                <div style="text-align:center">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+            </div>
+     </div>
+    
+    </div><!--container-->
+</div><!---header-->
+
+<!----featured stuff------------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <!--image-->
+                </div>
+                <div class="col-3">
+                    <!--image-->
+                </div>
+                <div class="col-3">
+                    <!--image-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------featured products----------->
+    <div class="small-container">
+        <h2 class="title">Announcements</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="graphics/announcement-1.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="graphics/announcement-2.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="graphics/announcement-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+<!-----offers and promos-->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <h1>What's New</h1>
+                    <p>LCCV STUDENT COUNCIL ATTENDED THE VALAPSA LEADERSHIP TRAINING SEMINAR for 
+                        SUPREME STUDENT GOVERNMENT</p><a href="article.html" class="btn">Read More ... &#x2799;</a>
+                </div>
+                <div class="col-2">
+                   <img src="images/index-new.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<!------footers------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <!--content-->
+                    <a href="location.html"><img src="images/logo-map.png" alt="" width="25%"></a>
+                    <br>
+                    Location
+                </div>
+                <div class="footer-col-2">
+                    <a href="https://www.facebook.com/lccvalenzuelaofficial"><img src="images/logo-fb.png" alt=""width="25%"></a>
+                    <br>
+                    lccvalenzuelaofficial
+                </div>
+                <div class="footer-col-3">
+                    <img src="images/logo-gmail.png" alt=""width="25%">
+                    <br>
+                    lccv.princoffice@gmail.com
+                </div>
+                <div class="footer-col-4">
+                    <img src="images/logo-call.png" alt=""width="25%">
+                    <br>
+                    8294 6089
+                    <br>
+                    8291 1655
+                </div>
+            </div>
+        </div>
+        <hr style="border-top: 2px solid #ffd700;"></hr>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+    </script>
+</body>
+</html>

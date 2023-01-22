@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-*">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!---JS for toggle-->
+        <script>
+            let slideIndex = 0;
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length){
+                    slideIndex = 1
+                }
+                slides[slideIndex-1].style.display = "block";
+                setTimeout(showSlides, 5000);
+            }
+        </script>
+</head>
+
+<body onload="showSlides()">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> 
+                    <img src="images/logo-large.png" width="125px">
+                </div>
+                <h1 style="color:white; margin-left: 20px;">La Consolacion College Valenzuela</h1>
+                
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="downloads.html">Downloads</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+            </div>
+        <!--VMGO-->
+        <div class="row">
+            <div class="col-2">
+                <p style="font-size:250%; margin-left: 20px;"><b>Vision Mission</b></p>
+                <p class="indentParagraph">
+                    <i>
+                    We commit ourselves  to  Christ  and  His  mission  by  providing  relevant  and responsive academic 
+                    programs and active involvement in community service towards social transformation for the realization 
+                    of the Reign of God.
+                    </i>
+                </p>
+            </div>
+
+            <div class="col-2">
+                <p style="font-size:250%; margin-left: 20px;"><b>Philosophy of Education</b></p>
+                <p class="indentParagraph">
+                    <i>
+                        La Consolacion College Valenzuela  is an Augustinian school operating under the influence of the Christian 
+                        Spirit which aims to enflesh the  Charism  and  Vision - Mission Statement of  the Congregation  which  emphasizes  
+                        a  community  spirit  of  friendship, compassion, responsibility, fairness, dynamism and love.
+                    </i>
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr style="border-top: 2px solid #ffd700;"></hr>
+        <div class="row">
+            <div class="col-2">
+                <p style="font-size:250%; margin-left: 20px;"><b>Institutional Goal</b></p>
+                <p class="indentParagraph">
+                    <br>
+                    <i>
+                        In order to live in our  Mission and so attain our Vision,  the school seeks to the attainment of these <b>GOALS</b>
+                    </i>
+                </p>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <ul style="color: white; margin-left:100px;">
+                        <li class="reqListItems">To develop well-rounded person</li>
+                        <li class="reqListItems">To renew Christian faith and commitment</li>
+                        <li class="reqListItems">To build and live in community of friends</li>
+                        <li class="reqListItems">To inculcate socio-economic political awareness and preferential option for the poor</li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <hr style="border-top: 2px solid #ffd700;"></hr>
+        <!--History Part-->
+        <h1 style="margin-top:50px;font-size: 250%;color:white;">History</h1>
+        <div class="row">
+            <div class="col-2">
+                <p style="font-size:200%"> La  consolacion  College  Valenzuela  (formerly St. Jude Academy)  proud  of 
+                    its scholastic achievements  and  community services is indebted of its existence 
+                    to a golden-hearted man, Don Pastor  Constantino of Polo, Valenzuela City. His 
+                    generous gestures of donating the 3,000 square meters of land to the Augustinian 
+                    Sisters of the Philippines (ASP) now Augustinian Sisters of Our Lady  of  Consolacion  
+                    (ASOLC)  in  his  newly  developed  Malinta  Villages  Subdivision  in 1963, marked  
+                    the beginning of a relevant institution that was to become the instrument  of  God 
+                    to sow the seeds of living faith of the compassionate Christ in a community of friends.</p>
+            </div>
+            <div class="col-2">
+                <img src="images/lccv-front.jpg" alt="picture of main gate">
+            </div>
+        </div>
+
+        <div class="row">
+            <p style="font-size:200%">
+                The school’s humble beginning fell  into the hands of  Sr. Maria Pilar Prospero, OSA, the first religious Community Superior, 
+                together with Sr. Victoria Dormido,  Sr. Matilde Cuevas, and Sr. Ma. Dolores  dela  Coronacion,   the  pioneers  to  undertake  
+                the  education  of  the  first  thirty  -  five kindergarten pupils form the surrounding community.
+            </p> 
+            <br>
+
+            <p style="font-size:200%">
+                On October 28, 1964 during the feast day of  St. Jude Thaddeus, the papers of donation were turned - over to the  ASP, and it was 
+                on the same year that the school acquired officially the name St.  Jude  Academy.  Sr. Simpliciana  de  San  Agustin,  the  first  
+                school  principal worked on the school  permit  and  subsequent  recognition.  As school being run by Religious, the parents were 
+                motivated to send their children to the first Catholic school in Valenzuela. 
+            </p>
+            <br>
+
+            <p style="font-size:200%">
+                The  school  year  1966  to  1969,  SJA  experienced  a  change  of  administration  under the leadership of Sr. Manuela del Redentor, OSA. 
+                The Private Schools Athletic Association (PRISAA) of Bulacan Catholic Schools recognized  St. Jude Academy as an outstanding Catholic 
+                institution where  athletics  had  a  place  in  its  curriculum. In the school year 1969-1970 another change of stewardship  took  place  
+                with  Sr. Ma.  Soledad Eamilao, OSA  as Sister Superior-Principal. 
+            </p>
+            <br>   
+
+            <p style="font-size:200%">
+                More inputs in the field of academics became evident; the physical, moral and social spheres were also strengthened.  In  the  same  year,  
+                the  organization of different student Assemblies, parent, and Alumni followed. For the school’s physical structures, the following were attained: 
+                the cementing of the  entire  school  ground,  the construction of the stage,  the  half south portion of the  Sto. Niño building, and the improvement 
+                of the Science Laboratory and acquisition of equipment.
+            </p>
+            <br>
+        </div>
+
+        <div class="row">
+            <div class="col-2" style="padding: 20px;">
+                <img src="images/about-quad.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <p style="font-size:200%"> A re-shuffle of the school administrators took effect at the start of the school year 1978-1979 with  Sr.  Flor  Cordis,  
+                    OSA  as  the  School  Directress,  and  at  the  same  time  the  Religious Coordinator,  Sr.  Mercedes  Rivera,  OSA  as  the  High School principal 
+                    and Sr. Eduarda de San Jose, OSA the Grade School principal. The process of development and expansion had continued since then, an indication of the Academy’s 
+                    commitment to meet the growing needs of the student population and to further upgrade its academic standard.
+                </p>
+         </div>
+
+        <div class="row">
+            <p style="font-size:200%">
+                In line with the Congregation acceptance of the Catholic School Systems Development (CS-SD), the teachers went through the Preparatory Orientation  
+                Talk  on   the program where improvements in the nine areas of school operation were given emphasis. Seminars about the program went on for almost 
+                three years.  In 1981, the school came up with the basic education program  (BED)  whereby a gradual transition of only one school principal for both 
+                grade school and high school departments was adopted. 
+            </p> 
+            <br>
+
+            <p style="font-size:200%">
+                This was also the time when the school’s Board of Trustees  (BOT)  started to function.  Sr. Mercedes Rivera,  OSA took over the  principalship.  
+                “Setting goal”  had been the very words of  Sr. Teresita Villaluz,  OSA, the community coordinator in 1983.  Through her motivation and creativity, together 
+                with Sr. Mercedes, the  school  underwent  the  First  Congregational  Evaluation  Visit   (CEV I).   As   a   result,  the Academy’s program had to focus 
+                more in the areas of Faculty,  Instruction and Administration.  In the year 1983-1984,  Sr. Ermelinda Sales, OSA was assigned as the new principal.  She 
+                managed the school for a year due to the fast turnover of the personnel in the Congregation.
+            </p>
+            <br>
+
+            <p style="font-size:200%">
+                In  consonance  with the achievement of relevant education and the articulation of the Charism and  Mission  Statement  of  the  Congregation, a dynamic 
+                and seasoned academician – educator came by the school 1984-1985 in the person of Sr. Adelina Segismundo, OSA. A thorough review of  the  highlights  and  
+                recommendations  of  the  CEV I  gave  a  new  direction  to the goals and objectives   of   the   school.   The  following  became  more evident;  
+                Outreach  Program  through catechetical instruction in the nearby public school: jail visitation by students, teachers, and non-teaching personnel:  
+                rapport between  the  home  and  the  school  was  strengthened;  continuing growth and development of the teaching staff through seminar - workshops  
+                and attendance  in the graduate school. Before the school year 1987-1988 started another sister - administrator  came in, Sr.  Natividad Varela, OSA 
+                as the new principal. 
+            </p>
+            <br>   
+
+            <p style="font-size:200%">
+                More promising projects were at hand in line with the  institution’s  celebration  of  its  Silver Jubilee.  At the disclose of 
+                the 90’s February 11,  St. Jude Academy celebrated its 25th  years of existence with the theme of “SJA’s 25th years of Service  for  Christian  
+                Value - Oriented Formation”.  This was the same year when the school attained  its  program  for  building  expansion  due  to  the increase in 
+                the students and personnel population.  In the school 1990 - 1991,  another  change  of  administration  took  place, Sr. Maria Annunciata Piella, 
+                OSA was assigned to be the principal.  The ground–breaking of the north–wing portion of the main building (now Mother Rita building) ended her 
+                term of office.
+            </p>
+            <br>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <p style="font-size:200%"> In 1992-1993, through the given thrust of rendering a Filipino-Christian education and inspired by  the  Total  Quality  
+                    Management  (TQM)  of  Sr. Francisca Montesa, OSA as the new principal, SJA gathered enough courage and determination to work for voluntary 
+                    accreditation.  On February 14 - 15,  1994,  the  school  successfully  passed  the  Congregational  Evaluation  Visit  (CEV II). Because  of  
+                    the  fast  turn - over  of  personnel in the Congregation,  school year 1995 - 1996  Sr. Rosalinda B. Bayla, OSA came in as the new school 
+                    principal where the ground - breaking of Sto. Nino building started.
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="images/about-kids.jpg" alt="picture of main gate">
+            </div>
+        </div>
+
+        <div class="row">
+            <p style="font-size:200%">
+                In  school  year  1996 - 1997, the  immediate  supervision  of  the school was entrusted to Sr. Celia  Bayona,  OSA  who  since  her  assignment  
+                in that year up to 1999 had proven the veracity of  the Congregation’s  appointment  through  the improvements  undertaken in the physical plant.  
+                With  her strong  leadership,  different  physical renovations had been done:  the  completion  and blessing  of  the  new Sto. Nino building,  the  
+                school chapel, comfort  rooms,  Instructional Media Center  and  the  new  Home  Economics  building.   It  is  through  her  leadership  too  
+                that  the  school  held   its PAASCU  Preliminary  Survey Visit  in  November,  1997.   The  institution received  satisfactory  results  of  the  
+                said  visit  and  was  given  a  period  of  one  year  to work on the accreditor’s recommendations.
+            </p> 
+            <br>
+
+            <p style="font-size:200%">
+                In the school year 1999 - 2000,  Sr Flor A. Cordis, OSA assumed again the responsibility of a school  head  of  SJA.  Sr Ma. Salvacion Taton, OSA  
+                as the  community  coordinator and school treasurer  for  two  years  and  Mother  Teresita  Villaluz, OSA  (the seventh Mother General of the ASOLC) 
+                assigned as OIC of two offices-Physical Plant and MRBCC, and at the same time as the school consultant.  With  their  first  term  of  office  the  
+                high  school  department  had its first PAASCU Formal Survey Visit on November 16-17, 1999, while the grade school department held its First Formal  
+                Survey  Visit  on  November 21 - 22,  2001.
+            </p>
+            <br>
+
+            <p style="font-size:200%">
+                With  that  enthusiasm  and commitment to service shown by  the school  constituents,  the school  passed  the  First Formal Survey Visit successfully.
+                From that time on,  both departments were granted the Certificate of Accreditation for three years making  St. Jude Academy the first accredited school 
+                in the City of Valenzuela.  The teamwork of the members of the  Religious  Community  was  the  force behind that motivated everybody to work harmoniously 
+                for  PAASCU accredited status of SJA.  In 2001 - 2003,  Mother Teresita became the community coordinator,  after which, Sr. Flor A. Cordis, OSA took over 
+                the responsibility from 2003 - 2005.
+            </p>
+            <br>   
+
+            <p style="font-size:200%">
+                School year 2003 - 2004, SJA celebrated its Ruby Jubilee with the theme:  SJA: 40 years of Making the Difference through Innovative Education. It was a 
+                memorable festivity where simple yet educational and wholistic activities were planned initiated by the alumni. The academy has survived; we have managed  
+                to  survive. SJA celebrated its invincibility against all odds . . . another triumphant year in addition to the many years of formation that it has provided 
+                for the students, to become value - oriented community leaders. Continuity of growth and development is in order.  Attuned to the times of innovation,  SJA’s  
+                gifts to the personnel and the clientele for the school year 2003 - 2005 were the internet and multi - media rooms and the speech laboratory, the next core  
+                of  the  system  –  communications  and technology; Religion / Values Education being the first! To reminisce significant events, during the school year 2002-2003, 
+                a year before SJA’s Ruby Jubilee, the High School Department held its PAASCU Re - Survey Visit. It was a rewarding year as shown by the satisfactory results of 
+                the said visit ;  the department was given a period of five years (from 2003 - 2008) to work on the recommendations.  
+            </p>
+            <br>
+
+            <p style="font-size:200%">
+                School  Year  2004 - 2005  was  also  a  busy  year  for the Grade School Department due to  the  preparation for its first  PAASCU  Re - Survey  Visit  which 
+                was held January 19 - 20,  2005.  Thus,   gained  rewarding  results.  The department was granted re -accreditation for a period of five years ( 2005-2010 ).
+            </p>
+            <br>
+            
+            <p style="font-size:200%">
+                In  school  year 2005 - 2006,  Sr. Evangeline B. Algaba, OSA, Director of the  Association of Schools of the Augustinian Sisters (ASAS) and  
+                Religion Program, took over the principalship. While  Sr. Ma. Linda Go, OSA  as the school  treasurer, and head of the  administrative services
+                whose  coming back at SJA had proven  strong  partnership  with the whole members of the personnel. The decisiveness, patience and  sympathy  
+                of  these two Religious, together with Sr. Brigida S. Baniquet, OSA ,  the religious  community  coordinator and teacher of Religion / Values 
+                Education subject, the school up - held continuously its vision – mission, rendered quality service to the larger community.  To mention a few: 
+                the active  participation  of some third year and fourth year students  in the annual  Catechetical Seminar  – Workshops  at San  Isidro 
+                Labrador Parish which had gained  commendations  from the  parishioners,  likewise, the Sunday Mass sponsor by the Judean  Community.  St. Jude  
+                Academy,  had  to  take  action  and couldn’t be complacent, instead  she  had to fulfill the significant plans.  It was in the  same  year  
+                that the launching of SJA’s 45th  foundation anniversary was held with a challenging theme, Standard of Excellence Now and Onward…  
+            </p>
+            <br>   
+        </div>
+
+        <div class="row">
+            <div class="col-2" style="padding: 20px;">
+                <img src="images/about-celeb.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <p style="font-size:200%"> 
+                    This celebration was highlighted with the Search for Mr. and Ms. SJA 2007. The teamwork exerted by the SCB officers, the Personnel, 
+                    and the Administration made the event worth – remembering. Furthermore in School Year 2009 – 2010, the school has to continuously make the 
+                    difference,  distinguished itself in the area of academic discipline, thus, enjoys the  reputation brought about by accreditation  of  
+                    PAASCU. Likewise, the institution spearheads research projects prepared by subject area teachers and concerned offices.
+                </p>
+         </div>
+
+         <div class="row">
+            <p style="font-size:200%">
+                As included in the Long – Range Development Plan of the school, the changing of its name from St. Jude Academy (SJA) to La Consolacion 
+                College Valenzuela (LCCV), where, by standard SJA is one of the ASOLC schools. Significant documents were submitted to Security Exchange Commission 
+                (SEC), thus, approved on February 2009. This move was an initial preparation for the opening of the tertiary level.
+            </p> 
+            <br>
+
+            <p style="font-size:200%">
+                As it looks forward to the Golden Year of Consolinian-Augustinian education in the City of Valenzuela in 2013, LCCV strives to mold young minds 
+                who will help build a community spirit of friendship, compassion, responsibility, fairness, dynamism and love.
+            </p>
+            <br>
+        </div>
+        </div>
+        </div><!--container-->
+        <br>
+    </div><!---header-->
+<!------footers------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <!--content-->
+                <a href="location.html"><img src="images/logo-map.png" alt="" width="25%"></a>
+                <br>
+                Location
+            </div>
+            <div class="footer-col-2">
+                <a href="https://www.facebook.com/lccvalenzuelaofficial"><img src="images/logo-fb.png" alt=""width="25%"></a>
+                <br>
+                lccvalenzuelaofficial
+            </div>
+            <div class="footer-col-3">
+                <img src="images/logo-gmail.png" alt=""width="25%">
+                <br>
+                lccv.princoffice@gmail.com
+            </div>
+            <div class="footer-col-4">
+                <img src="images/logo-call.png" alt=""width="25%">
+                <br>
+                8294 6089
+                <br>
+                8291 1655
+            </div>
+        </div>
+    </div>
+    <hr style="border-top: 2px solid #ffd700;"></hr>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+</script>
+</body>
+</html>
